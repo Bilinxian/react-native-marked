@@ -43,9 +43,7 @@ const Markdown = ({
 			keyExtractor={keyExtractor}
 			maxToRenderPerBatch={8}
 			initialNumToRender={8}
-			style={{
-				backgroundColor: colorScheme === "light" ? "#ffffff" : "#000000",
-			}}
+		
 			{...flatListProps}
 			data={rnElements}
 			renderItem={renderItem}
